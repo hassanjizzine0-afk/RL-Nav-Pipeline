@@ -1,0 +1,37 @@
+[15.029s] Invoking command in '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_x_sim build --build-base /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build install --record /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/install.log --single-version-externally-managed install_data
+[17.189s] running egg_info
+[17.195s] creating ../../build/navbot_x_sim/navbot_x_sim.egg-info
+[17.359s] writing ../../build/navbot_x_sim/navbot_x_sim.egg-info/PKG-INFO
+[17.359s] writing dependency_links to ../../build/navbot_x_sim/navbot_x_sim.egg-info/dependency_links.txt
+[17.360s] writing requirements to ../../build/navbot_x_sim/navbot_x_sim.egg-info/requires.txt
+[17.365s] writing top-level names to ../../build/navbot_x_sim/navbot_x_sim.egg-info/top_level.txt
+[17.366s] writing manifest file '../../build/navbot_x_sim/navbot_x_sim.egg-info/SOURCES.txt'
+[17.726s] reading manifest file '../../build/navbot_x_sim/navbot_x_sim.egg-info/SOURCES.txt'
+[17.731s] writing manifest file '../../build/navbot_x_sim/navbot_x_sim.egg-info/SOURCES.txt'
+[17.732s] running build
+[17.735s] running build_py
+[17.736s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build
+[17.737s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib
+[17.738s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib/navbot_x_sim
+[17.739s] copying navbot_x_sim/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib/navbot_x_sim
+[17.740s] running install
+[17.781s] running install_lib
+[17.958s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim
+[17.961s] copying /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib/navbot_x_sim/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim
+[17.963s] byte-compiling /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim/__init__.py to __init__.cpython-312.pyc
+[17.965s] running install_data
+[17.967s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index
+[17.969s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index/resource_index
+[17.970s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index/resource_index/packages
+[17.971s] copying resource/navbot_x_sim -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index/resource_index/packages
+[17.971s] copying package.xml -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim
+[17.972s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/launch
+[17.975s] copying launch/sim.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/launch
+[17.975s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/worlds
+[17.976s] copying worlds/empty.world -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/worlds
+[17.977s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/config
+[17.986s] running install_egg_info
+[18.183s] Copying ../../build/navbot_x_sim/navbot_x_sim.egg-info to /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim-0.0.0-py3.12.egg-info
+[18.189s] running install_scripts
+[19.225s] writing list of installed files to '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/install.log'
+[19.389s] Invoked command in '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_x_sim build --build-base /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build install --record /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/install.log --single-version-externally-managed install_data

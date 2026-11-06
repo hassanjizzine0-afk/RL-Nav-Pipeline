@@ -1,0 +1,4 @@
+source;share/navbot_x_bringup/hook/pythonpath.dsv
+source;share/navbot_x_bringup/hook/pythonpath.sh
+source;share/navbot_x_bringup/hook/ament_prefix_path.dsv
+source;share/navbot_x_bringup/hook/ament_prefix_path.sh

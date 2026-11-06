@@ -1,0 +1,38 @@
+[15.067s] Invoking command in '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_x_description build --build-base /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build install --record /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/install.log --single-version-externally-managed install_data
+[17.414s] running egg_info
+[17.415s] creating ../../build/navbot_x_description/navbot_x_description.egg-info
+[17.582s] writing ../../build/navbot_x_description/navbot_x_description.egg-info/PKG-INFO
+[17.584s] writing dependency_links to ../../build/navbot_x_description/navbot_x_description.egg-info/dependency_links.txt
+[17.585s] writing requirements to ../../build/navbot_x_description/navbot_x_description.egg-info/requires.txt
+[17.588s] writing top-level names to ../../build/navbot_x_description/navbot_x_description.egg-info/top_level.txt
+[17.589s] writing manifest file '../../build/navbot_x_description/navbot_x_description.egg-info/SOURCES.txt'
+[17.960s] reading manifest file '../../build/navbot_x_description/navbot_x_description.egg-info/SOURCES.txt'
+[17.965s] writing manifest file '../../build/navbot_x_description/navbot_x_description.egg-info/SOURCES.txt'
+[17.966s] running build
+[17.967s] running build_py
+[17.968s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build
+[17.969s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib
+[17.969s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib/navbot_x_description
+[17.970s] copying navbot_x_description/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib/navbot_x_description
+[17.970s] running install
+[18.024s] running install_lib
+[18.202s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description
+[18.202s] copying /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib/navbot_x_description/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description
+[18.208s] byte-compiling /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description/__init__.py to __init__.cpython-312.pyc
+[18.212s] running install_data
+[18.213s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index
+[18.214s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index/resource_index
+[18.215s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index/resource_index/packages
+[18.216s] copying resource/navbot_x_description -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index/resource_index/packages
+[18.217s] copying package.xml -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description
+[18.217s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/launch
+[18.218s] copying launch/display.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/launch
+[18.218s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/urdf
+[18.219s] copying urdf/navbot_x.urdf.xacro -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/urdf
+[18.221s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/rviz
+[18.221s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/config
+[18.222s] running install_egg_info
+[18.416s] Copying ../../build/navbot_x_description/navbot_x_description.egg-info to /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description-0.0.0-py3.12.egg-info
+[18.424s] running install_scripts
+[19.518s] writing list of installed files to '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/install.log'
+[19.827s] Invoked command in '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_x_description build --build-base /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build install --record /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/install.log --single-version-externally-managed install_data

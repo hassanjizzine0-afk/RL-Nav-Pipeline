@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (navbot_x_bringup) JobQueued: {'identifier': 'navbot_x_bringup', 'dependencies': OrderedDict()}
+[0.000699] (navbot_x_description) JobQueued: {'identifier': 'navbot_x_description', 'dependencies': OrderedDict()}
+[0.000817] (navbot_x_sim) JobQueued: {'identifier': 'navbot_x_sim', 'dependencies': OrderedDict()}
+[0.000910] (navbot_x_bringup) JobStarted: {'identifier': 'navbot_x_bringup'}
+[0.095673] (-) TimerEvent: {}
+[0.196388] (-) TimerEvent: {}
+[0.298268] (-) TimerEvent: {}
+[0.350606] (navbot_x_description) JobStarted: {'identifier': 'navbot_x_description'}
+[0.375527] (navbot_x_sim) JobStarted: {'identifier': 'navbot_x_sim'}
+[0.398646] (-) TimerEvent: {}
+[0.499314] (-) TimerEvent: {}
+[0.600095] (-) TimerEvent: {}
+[0.705792] (-) TimerEvent: {}
+[0.806397] (-) TimerEvent: {}
+[0.910413] (-) TimerEvent: {}
+[1.014796] (-) TimerEvent: {}
+[1.115740] (-) TimerEvent: {}
+[1.217802] (-) TimerEvent: {}
+[1.323554] (-) TimerEvent: {}
+[1.424330] (-) TimerEvent: {}
+[1.527553] (-) TimerEvent: {}
+[1.628385] (-) TimerEvent: {}
+[1.734005] (-) TimerEvent: {}
+[1.836234] (-) TimerEvent: {}
+[1.938762] (-) TimerEvent: {}
+[2.039574] (-) TimerEvent: {}
+[2.142380] (-) TimerEvent: {}
+[2.246712] (-) TimerEvent: {}
+[2.347775] (-) TimerEvent: {}
+[2.448570] (-) TimerEvent: {}
+[2.549383] (-) TimerEvent: {}
+[2.650222] (-) TimerEvent: {}
+[2.754748] (-) TimerEvent: {}
+[2.855641] (-) TimerEvent: {}
+[2.958009] (-) TimerEvent: {}
+[3.059062] (-) TimerEvent: {}
+[3.159904] (-) TimerEvent: {}
+[3.263307] (-) TimerEvent: {}
+[3.365520] (-) TimerEvent: {}
+[3.467912] (-) TimerEvent: {}
+[3.568918] (-) TimerEvent: {}
+[3.672573] (-) TimerEvent: {}
+[3.776298] (-) TimerEvent: {}
+[3.877157] (-) TimerEvent: {}
+[3.978002] (-) TimerEvent: {}
+[4.079543] (-) TimerEvent: {}
+[4.182978] (-) TimerEvent: {}
+[4.283987] (-) TimerEvent: {}
+[4.387098] (-) TimerEvent: {}
+[4.487897] (-) TimerEvent: {}
+[4.588657] (-) TimerEvent: {}
+[4.693000] (-) TimerEvent: {}
+[4.793807] (-) TimerEvent: {}
+[4.897723] (-) TimerEvent: {}
+[4.999056] (-) TimerEvent: {}
+[5.104543] (-) TimerEvent: {}
+[5.205254] (-) TimerEvent: {}
+[5.317566] (-) TimerEvent: {}
+[5.418471] (-) TimerEvent: {}
+[5.522614] (-) TimerEvent: {}
+[5.623534] (-) TimerEvent: {}
+[5.724313] (-) TimerEvent: {}
+[5.825102] (-) TimerEvent: {}
+[5.926555] (-) TimerEvent: {}
+[6.027356] (-) TimerEvent: {}
+[6.130563] (-) TimerEvent: {}
+[6.231785] (-) TimerEvent: {}
+[6.332602] (-) TimerEvent: {}
+[6.440825] (-) TimerEvent: {}
+[6.543559] (-) TimerEvent: {}
+[6.644482] (-) TimerEvent: {}
+[6.748880] (-) TimerEvent: {}
+[6.851280] (-) TimerEvent: {}
+[6.953583] (-) TimerEvent: {}
+[7.054495] (-) TimerEvent: {}
+[7.155306] (-) TimerEvent: {}
+[7.256336] (-) TimerEvent: {}
+[7.359481] (-) TimerEvent: {}
+[7.460689] (-) TimerEvent: {}
+[7.561574] (-) TimerEvent: {}
+[7.664836] (-) TimerEvent: {}
+[7.765863] (-) TimerEvent: {}
+[7.870876] (-) TimerEvent: {}
+[7.972561] (-) TimerEvent: {}
+[8.073422] (-) TimerEvent: {}
+[8.174180] (-) TimerEvent: {}
+[8.275911] (-) TimerEvent: {}
+[8.377636] (-) TimerEvent: {}
+[8.481202] (-) TimerEvent: {}
+[8.582128] (-) TimerEvent: {}
+[8.683222] (-) TimerEvent: {}
+[8.784049] (-) TimerEvent: {}
+[8.884964] (-) TimerEvent: {}
+[8.986577] (-) TimerEvent: {}
+[9.087777] (-) TimerEvent: {}
+[9.188395] (-) TimerEvent: {}
+[9.289211] (-) TimerEvent: {}
+[9.390566] (-) TimerEvent: {}
+[9.491534] (-) TimerEvent: {}
+[9.593871] (-) TimerEvent: {}
+[9.694723] (-) TimerEvent: {}
+[9.795727] (-) TimerEvent: {}
+[9.896516] (-) TimerEvent: {}
+[9.998848] (-) TimerEvent: {}
+[10.100960] (-) TimerEvent: {}
+[10.215582] (-) TimerEvent: {}
+[10.321555] (-) TimerEvent: {}
+[10.422386] (-) TimerEvent: {}
+[10.523181] (-) TimerEvent: {}
+[10.623977] (-) TimerEvent: {}
+[10.727563] (-) TimerEvent: {}
+[10.828737] (-) TimerEvent: {}
+[10.933585] (-) TimerEvent: {}
+[11.037840] (-) TimerEvent: {}
+[11.138557] (-) TimerEvent: {}
+[11.242608] (-) TimerEvent: {}
+[11.343479] (-) TimerEvent: {}
+[11.444296] (-) TimerEvent: {}
+[11.545471] (-) TimerEvent: {}
+[11.646566] (-) TimerEvent: {}
+[11.752568] (-) TimerEvent: {}
+[11.853468] (-) TimerEvent: {}
+[11.954359] (-) TimerEvent: {}
+[12.055319] (-) TimerEvent: {}
+[12.157999] (-) TimerEvent: {}
+[12.259006] (-) TimerEvent: {}
+[12.362719] (-) TimerEvent: {}
+[12.463541] (-) TimerEvent: {}
+[12.564301] (-) TimerEvent: {}
+[12.668568] (-) TimerEvent: {}
+[12.769370] (-) TimerEvent: {}
+[12.870306] (-) TimerEvent: {}
+[12.971366] (-) TimerEvent: {}
+[13.072773] (-) TimerEvent: {}
+[13.173566] (-) TimerEvent: {}
+[13.274556] (-) TimerEvent: {}
+[13.375556] (-) TimerEvent: {}
+[13.476557] (-) TimerEvent: {}
+[13.577560] (-) TimerEvent: {}
+[13.679873] (-) TimerEvent: {}
+[13.781549] (-) TimerEvent: {}
+[13.882292] (-) TimerEvent: {}
+[13.983566] (-) TimerEvent: {}
+[14.084357] (-) TimerEvent: {}
+[14.185222] (-) TimerEvent: {}
+[14.289840] (-) TimerEvent: {}
+[14.391564] (-) TimerEvent: {}
+[14.492517] (-) TimerEvent: {}
+[14.593471] (-) TimerEvent: {}
+[14.694512] (-) TimerEvent: {}
+[14.795182] (-) TimerEvent: {}
+[14.896020] (-) TimerEvent: {}
+[14.999865] (-) TimerEvent: {}
+[15.101561] (-) TimerEvent: {}
+[15.202376] (-) TimerEvent: {}
+[15.303591] (-) TimerEvent: {}
+[15.358754] (navbot_x_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navbot_x_bringup', 'build', '--build-base', '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build', 'install', '--record', '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_bringup', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hasan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hasan', 'OLDPWD': '/home/hasan/RL-Nav-Pipeline', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2415', 'SYSTEMD_EXEC_PID': '2862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5748', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hasan', 'JOURNAL_STREAM': '10:21823', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hasan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/hasan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hasan-IdeaPad-Slim-3-15AMN8:@/tmp/.ICE-unix/2634,unix/hasan-IdeaPad-Slim-3-15AMN8:/tmp/.ICE-unix/2634', 'INVOCATION_ID': '21161bf74d554176bd073ff9c99bb282', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0F27X3', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4c53becd-2d39-4708-a080-0608da14b3ba', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.389044] (navbot_x_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navbot_x_sim', 'build', '--build-base', '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build', 'install', '--record', '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_sim', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hasan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hasan', 'OLDPWD': '/home/hasan/RL-Nav-Pipeline', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2415', 'SYSTEMD_EXEC_PID': '2862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5748', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hasan', 'JOURNAL_STREAM': '10:21823', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hasan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/hasan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hasan-IdeaPad-Slim-3-15AMN8:@/tmp/.ICE-unix/2634,unix/hasan-IdeaPad-Slim-3-15AMN8:/tmp/.ICE-unix/2634', 'INVOCATION_ID': '21161bf74d554176bd073ff9c99bb282', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0F27X3', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4c53becd-2d39-4708-a080-0608da14b3ba', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.405739] (-) TimerEvent: {}
+[15.411805] (navbot_x_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navbot_x_description', 'build', '--build-base', '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build', 'install', '--record', '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_description', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'hasan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hasan', 'OLDPWD': '/home/hasan/RL-Nav-Pipeline', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2415', 'SYSTEMD_EXEC_PID': '2862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5748', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hasan', 'JOURNAL_STREAM': '10:21823', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hasan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/hasan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hasan-IdeaPad-Slim-3-15AMN8:@/tmp/.ICE-unix/2634,unix/hasan-IdeaPad-Slim-3-15AMN8:/tmp/.ICE-unix/2634', 'INVOCATION_ID': '21161bf74d554176bd073ff9c99bb282', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0F27X3', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4c53becd-2d39-4708-a080-0608da14b3ba', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.507609] (-) TimerEvent: {}
+[15.608462] (-) TimerEvent: {}
+[15.709344] (-) TimerEvent: {}
+[15.810564] (-) TimerEvent: {}
+[15.911571] (-) TimerEvent: {}
+[16.012396] (-) TimerEvent: {}
+[16.113567] (-) TimerEvent: {}
+[16.219562] (-) TimerEvent: {}
+[16.320389] (-) TimerEvent: {}
+[16.421248] (-) TimerEvent: {}
+[16.526664] (-) TimerEvent: {}
+[16.627648] (-) TimerEvent: {}
+[16.728553] (-) TimerEvent: {}
+[16.831618] (-) TimerEvent: {}
+[16.932770] (-) TimerEvent: {}
+[17.034199] (-) TimerEvent: {}
+[17.136796] (-) TimerEvent: {}
+[17.241142] (-) TimerEvent: {}
+[17.343136] (-) TimerEvent: {}
+[17.446210] (-) TimerEvent: {}
+[17.549051] (-) TimerEvent: {}
+[17.563563] (navbot_x_sim) StdoutLine: {'line': b'running egg_info\n'}
+[17.569877] (navbot_x_sim) StdoutLine: {'line': b'creating ../../build/navbot_x_sim/navbot_x_sim.egg-info\n'}
+[17.649228] (-) TimerEvent: {}
+[17.671742] (navbot_x_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[17.673275] (navbot_x_bringup) StdoutLine: {'line': b'creating ../../build/navbot_x_bringup/navbot_x_bringup.egg-info\n'}
+[17.733543] (navbot_x_sim) StdoutLine: {'line': b'writing ../../build/navbot_x_sim/navbot_x_sim.egg-info/PKG-INFO\n'}
+[17.734310] (navbot_x_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/navbot_x_sim/navbot_x_sim.egg-info/dependency_links.txt\n'}
+[17.734959] (navbot_x_sim) StdoutLine: {'line': b'writing requirements to ../../build/navbot_x_sim/navbot_x_sim.egg-info/requires.txt\n'}
+[17.738543] (navbot_x_sim) StdoutLine: {'line': b'writing top-level names to ../../build/navbot_x_sim/navbot_x_sim.egg-info/top_level.txt\n'}
+[17.741138] (navbot_x_sim) StdoutLine: {'line': b"writing manifest file '../../build/navbot_x_sim/navbot_x_sim.egg-info/SOURCES.txt'\n"}
+[17.749551] (-) TimerEvent: {}
+[17.763945] (navbot_x_description) StdoutLine: {'line': b'running egg_info\n'}
+[17.764830] (navbot_x_description) StdoutLine: {'line': b'creating ../../build/navbot_x_description/navbot_x_description.egg-info\n'}
+[17.841697] (navbot_x_bringup) StdoutLine: {'line': b'writing ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/PKG-INFO\n'}
+[17.843338] (navbot_x_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/dependency_links.txt\n'}
+[17.845525] (navbot_x_bringup) StdoutLine: {'line': b'writing requirements to ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/requires.txt\n'}
+[17.847084] (navbot_x_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/top_level.txt\n'}
+[17.848794] (navbot_x_bringup) StdoutLine: {'line': b"writing manifest file '../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt'\n"}
+[17.852576] (-) TimerEvent: {}
+[17.931898] (navbot_x_description) StdoutLine: {'line': b'writing ../../build/navbot_x_description/navbot_x_description.egg-info/PKG-INFO\n'}
+[17.933787] (navbot_x_description) StdoutLine: {'line': b'writing dependency_links to ../../build/navbot_x_description/navbot_x_description.egg-info/dependency_links.txt\n'}
+[17.934867] (navbot_x_description) StdoutLine: {'line': b'writing requirements to ../../build/navbot_x_description/navbot_x_description.egg-info/requires.txt\n'}
+[17.938071] (navbot_x_description) StdoutLine: {'line': b'writing top-level names to ../../build/navbot_x_description/navbot_x_description.egg-info/top_level.txt\n'}
+[17.938896] (navbot_x_description) StdoutLine: {'line': b"writing manifest file '../../build/navbot_x_description/navbot_x_description.egg-info/SOURCES.txt'\n"}
+[17.952992] (-) TimerEvent: {}
+[18.057405] (-) TimerEvent: {}
+[18.100712] (navbot_x_sim) StdoutLine: {'line': b"reading manifest file '../../build/navbot_x_sim/navbot_x_sim.egg-info/SOURCES.txt'\n"}
+[18.105612] (navbot_x_sim) StdoutLine: {'line': b"writing manifest file '../../build/navbot_x_sim/navbot_x_sim.egg-info/SOURCES.txt'\n"}
+[18.106844] (navbot_x_sim) StdoutLine: {'line': b'running build\n'}
+[18.107533] (navbot_x_sim) StdoutLine: {'line': b'running build_py\n'}
+[18.110802] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build\n'}
+[18.111567] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib\n'}
+[18.112346] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib/navbot_x_sim\n'}
+[18.113269] (navbot_x_sim) StdoutLine: {'line': b'copying navbot_x_sim/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib/navbot_x_sim\n'}
+[18.114746] (navbot_x_sim) StdoutLine: {'line': b'running install\n'}
+[18.155703] (navbot_x_sim) StdoutLine: {'line': b'running install_lib\n'}
+[18.157555] (-) TimerEvent: {}
+[18.220903] (navbot_x_bringup) StdoutLine: {'line': b"reading manifest file '../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt'\n"}
+[18.224134] (navbot_x_bringup) StdoutLine: {'line': b"writing manifest file '../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt'\n"}
+[18.226282] (navbot_x_bringup) StdoutLine: {'line': b'running build\n'}
+[18.227865] (navbot_x_bringup) StdoutLine: {'line': b'running build_py\n'}
+[18.229719] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build\n'}
+[18.230419] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib\n'}
+[18.234226] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib/navbot_x_bringup\n'}
+[18.234925] (navbot_x_bringup) StdoutLine: {'line': b'copying navbot_x_bringup/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib/navbot_x_bringup\n'}
+[18.235542] (navbot_x_bringup) StdoutLine: {'line': b'running install\n'}
+[18.258542] (-) TimerEvent: {}
+[18.278979] (navbot_x_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[18.310116] (navbot_x_description) StdoutLine: {'line': b"reading manifest file '../../build/navbot_x_description/navbot_x_description.egg-info/SOURCES.txt'\n"}
+[18.315130] (navbot_x_description) StdoutLine: {'line': b"writing manifest file '../../build/navbot_x_description/navbot_x_description.egg-info/SOURCES.txt'\n"}
+[18.316019] (navbot_x_description) StdoutLine: {'line': b'running build\n'}
+[18.317064] (navbot_x_description) StdoutLine: {'line': b'running build_py\n'}
+[18.317979] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build\n'}
+[18.318749] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib\n'}
+[18.319359] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib/navbot_x_description\n'}
+[18.320000] (navbot_x_description) StdoutLine: {'line': b'copying navbot_x_description/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib/navbot_x_description\n'}
+[18.320667] (navbot_x_description) StdoutLine: {'line': b'running install\n'}
+[18.332505] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim\n'}
+[18.335458] (navbot_x_sim) StdoutLine: {'line': b'copying /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/build/lib/navbot_x_sim/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim\n'}
+[18.338026] (navbot_x_sim) StdoutLine: {'line': b'byte-compiling /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim/__init__.py to __init__.cpython-312.pyc\n'}
+[18.338956] (navbot_x_sim) StdoutLine: {'line': b'running install_data\n'}
+[18.340287] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index\n'}
+[18.342680] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index/resource_index\n'}
+[18.345092] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index/resource_index/packages\n'}
+[18.345766] (navbot_x_sim) StdoutLine: {'line': b'copying resource/navbot_x_sim -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/ament_index/resource_index/packages\n'}
+[18.346356] (navbot_x_sim) StdoutLine: {'line': b'copying package.xml -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim\n'}
+[18.346985] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/launch\n'}
+[18.349576] (navbot_x_sim) StdoutLine: {'line': b'copying launch/sim.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/launch\n'}
+[18.350339] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/worlds\n'}
+[18.351017] (navbot_x_sim) StdoutLine: {'line': b'copying worlds/empty.world -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/worlds\n'}
+[18.351654] (navbot_x_sim) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/share/navbot_x_sim/config\n'}
+[18.352245] (navbot_x_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.361343] (-) TimerEvent: {}
+[18.373642] (navbot_x_description) StdoutLine: {'line': b'running install_lib\n'}
+[18.446649] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup\n'}
+[18.448168] (navbot_x_bringup) StdoutLine: {'line': b'copying /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib/navbot_x_bringup/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup\n'}
+[18.451921] (navbot_x_bringup) StdoutLine: {'line': b'byte-compiling /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup/__init__.py to __init__.cpython-312.pyc\n'}
+[18.454007] (navbot_x_bringup) StdoutLine: {'line': b'running install_data\n'}
+[18.468888] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index\n'}
+[18.469650] (-) TimerEvent: {}
+[18.470105] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index/resource_index\n'}
+[18.470672] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index/resource_index/packages\n'}
+[18.471143] (navbot_x_bringup) StdoutLine: {'line': b'copying resource/navbot_x_bringup -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index/resource_index/packages\n'}
+[18.471674] (navbot_x_bringup) StdoutLine: {'line': b'copying package.xml -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup\n'}
+[18.472133] (navbot_x_bringup) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup/launch\n'}
+[18.484481] (navbot_x_bringup) StdoutLine: {'line': b'copying launch/bridge.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup/launch\n'}
+[18.485948] (navbot_x_bringup) StdoutLine: {'line': b'copying launch/spawn_navbot.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup/launch\n'}
+[18.486682] (navbot_x_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.551894] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description\n'}
+[18.552691] (navbot_x_description) StdoutLine: {'line': b'copying /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/build/lib/navbot_x_description/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description\n'}
+[18.557569] (navbot_x_sim) StdoutLine: {'line': b'Copying ../../build/navbot_x_sim/navbot_x_sim.egg-info to /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_sim/lib/python3.12/site-packages/navbot_x_sim-0.0.0-py3.12.egg-info\n'}
+[18.558391] (navbot_x_description) StdoutLine: {'line': b'byte-compiling /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description/__init__.py to __init__.cpython-312.pyc\n'}
+[18.562237] (navbot_x_description) StdoutLine: {'line': b'running install_data\n'}
+[18.563144] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index\n'}
+[18.563835] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index/resource_index\n'}
+[18.564541] (navbot_x_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[18.565165] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index/resource_index/packages\n'}
+[18.566039] (navbot_x_description) StdoutLine: {'line': b'copying resource/navbot_x_description -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/ament_index/resource_index/packages\n'}
+[18.566826] (navbot_x_description) StdoutLine: {'line': b'copying package.xml -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description\n'}
+[18.567422] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/launch\n'}
+[18.567930] (navbot_x_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/launch\n'}
+[18.568481] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/urdf\n'}
+[18.569081] (navbot_x_description) StdoutLine: {'line': b'copying urdf/navbot_x.urdf.xacro -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/urdf\n'}
+[18.569662] (-) TimerEvent: {}
+[18.570689] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/rviz\n'}
+[18.571418] (navbot_x_description) StdoutLine: {'line': b'creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/share/navbot_x_description/config\n'}
+[18.572174] (navbot_x_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.631720] (navbot_x_bringup) StdoutLine: {'line': b'Copying ../../build/navbot_x_bringup/navbot_x_bringup.egg-info to /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup-0.0.0-py3.12.egg-info\n'}
+[18.635939] (navbot_x_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[18.674363] (-) TimerEvent: {}
+[18.766533] (navbot_x_description) StdoutLine: {'line': b'Copying ../../build/navbot_x_description/navbot_x_description.egg-info to /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_description/lib/python3.12/site-packages/navbot_x_description-0.0.0-py3.12.egg-info\n'}
+[18.774307] (navbot_x_description) StdoutLine: {'line': b'running install_scripts\n'}
+[18.775139] (-) TimerEvent: {}
+[18.880968] (-) TimerEvent: {}
+[18.981762] (-) TimerEvent: {}
+[19.082542] (-) TimerEvent: {}
+[19.188834] (-) TimerEvent: {}
+[19.289650] (-) TimerEvent: {}
+[19.392599] (-) TimerEvent: {}
+[19.496573] (-) TimerEvent: {}
+[19.597351] (-) TimerEvent: {}
+[19.599975] (navbot_x_sim) StdoutLine: {'line': b"writing list of installed files to '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_sim/install.log'\n"}
+[19.614661] (navbot_x_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/install.log'\n"}
+[19.699586] (-) TimerEvent: {}
+[19.763112] (navbot_x_sim) CommandEnded: {'returncode': 0}
+[19.800801] (-) TimerEvent: {}
+[19.867724] (navbot_x_description) StdoutLine: {'line': b"writing list of installed files to '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_description/install.log'\n"}
+[19.905561] (-) TimerEvent: {}
+[20.010760] (-) TimerEvent: {}
+[20.111633] (-) TimerEvent: {}
+[20.133869] (navbot_x_sim) JobEnded: {'identifier': 'navbot_x_sim', 'rc': 0}
+[20.143897] (navbot_x_bringup) CommandEnded: {'returncode': 0}
+[20.172620] (navbot_x_bringup) JobEnded: {'identifier': 'navbot_x_bringup', 'rc': 0}
+[20.176773] (navbot_x_description) CommandEnded: {'returncode': 0}
+[20.206814] (navbot_x_description) JobEnded: {'identifier': 'navbot_x_description', 'rc': 0}
+[20.213787] (-) TimerEvent: {}
+[20.214179] (-) EventReactorShutdown: {}

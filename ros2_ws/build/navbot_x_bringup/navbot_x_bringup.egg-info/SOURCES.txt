@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/navbot_x_bringup/navbot_x_bringup.egg-info/PKG-INFO
+../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt
+../../build/navbot_x_bringup/navbot_x_bringup.egg-info/dependency_links.txt
+../../build/navbot_x_bringup/navbot_x_bringup.egg-info/requires.txt
+../../build/navbot_x_bringup/navbot_x_bringup.egg-info/top_level.txt
+../../build/navbot_x_bringup/navbot_x_bringup.egg-info/zip-safe
+launch/bridge.launch.py
+launch/spawn_navbot.launch.py
+navbot_x_bringup/__init__.py
+resource/navbot_x_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,35 @@
+[15.361s] Invoking command in '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_x_bringup build --build-base /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build install --record /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/install.log --single-version-externally-managed install_data
+[17.672s] running egg_info
+[17.673s] creating ../../build/navbot_x_bringup/navbot_x_bringup.egg-info
+[17.841s] writing ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/PKG-INFO
+[17.843s] writing dependency_links to ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/dependency_links.txt
+[17.845s] writing requirements to ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/requires.txt
+[17.847s] writing top-level names to ../../build/navbot_x_bringup/navbot_x_bringup.egg-info/top_level.txt
+[17.848s] writing manifest file '../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt'
+[18.221s] reading manifest file '../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt'
+[18.225s] writing manifest file '../../build/navbot_x_bringup/navbot_x_bringup.egg-info/SOURCES.txt'
+[18.227s] running build
+[18.227s] running build_py
+[18.229s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build
+[18.233s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib
+[18.234s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib/navbot_x_bringup
+[18.234s] copying navbot_x_bringup/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib/navbot_x_bringup
+[18.235s] running install
+[18.279s] running install_lib
+[18.446s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup
+[18.448s] copying /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build/lib/navbot_x_bringup/__init__.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup
+[18.451s] byte-compiling /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup/__init__.py to __init__.cpython-312.pyc
+[18.454s] running install_data
+[18.469s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index
+[18.470s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index/resource_index
+[18.470s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index/resource_index/packages
+[18.471s] copying resource/navbot_x_bringup -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/ament_index/resource_index/packages
+[18.471s] copying package.xml -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup
+[18.483s] creating /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup/launch
+[18.485s] copying launch/bridge.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup/launch
+[18.486s] copying launch/spawn_navbot.launch.py -> /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/share/navbot_x_bringup/launch
+[18.486s] running install_egg_info
+[18.631s] Copying ../../build/navbot_x_bringup/navbot_x_bringup.egg-info to /home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages/navbot_x_bringup-0.0.0-py3.12.egg-info
+[18.636s] running install_scripts
+[19.614s] writing list of installed files to '/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/install.log'
+[20.144s] Invoked command in '/home/hasan/RL-Nav-Pipeline/ros2_ws/src/navbot_x_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasan/RL-Nav-Pipeline/ros2_ws/install/navbot_x_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navbot_x_bringup build --build-base /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/build install --record /home/hasan/RL-Nav-Pipeline/ros2_ws/build/navbot_x_bringup/install.log --single-version-externally-managed install_data
