@@ -26,3 +26,63 @@
 4. Робот двигается в Gazebo.
 5. Среда (Environment) вычисляет награду (Reward): плюс за движение к цели, минус за столкновение.
 6. Нейросеть обновляет свои веса, чтобы в следующий раз получить больше награды.
+
+
+
+
+## 📁 Структура проекта
+
+```text
+RL-Nav-Pipeline/
+│
+├── ros2_ws/                          # ROS 2 workspace (собирается colcon)
+│   └── src/
+│       └── navbot_x_rl_navigation/   # пакеты симуляции (клонированы)
+│           ├── navbot_x_bringup/     # launch-файлы: spawn + bridge
+│           ├── navbot_x_description/ # URDF, меши, сенсоры (лидар)
+│           └── navbot_x_gazebo/      # миры Gazebo, препятствия
+│
+├── rl/                               # Python-часть (RL-мозг)
+│   ├── env/
+│   │   └── navbot_env.py             # Gymnasium-среда NavBotEnv
+│   ├── train/
+│   │   └── train_ppo.py              # скрипт запуска обучения PPO
+│   ├── utils/
+│   │   ├── ros_bridge.py             # обёртка над rclpy (pub/sub)
+│   │   └── reward.py                 # функции награды
+│   └── configs/
+│       └── ppo_config.yaml           # гиперпараметры PPO, среда
+│
+├── models/                           # сохранённые веса политик (.zip)
+├── logs/                             # TensorBoard-логи, метрики обучения
+├── configs/                          # общие конфиги (мир, робот, задачи)
+├── docs/                             # схемы архитектуры, отчёты
+├── scripts/                          # вспомогательные bash-скрипты
+│   ├── run_sim.sh                    # терминал 1
+│   ├── run_bridge.sh                 # терминал 2
+│   └── run_train.sh                  # терминал 3
+│
+├── requirements.txt                  # Python-зависимости (sb3, gymnasium…)
+├── .gitignore
+└── README.md
+```
+
+###  Поток данных (data flow)
+
+```text
+[Лидар /scan] ──┐
+                ├──► NavBotEnv (Gymnasium) ──► PPO (нейросеть)
+[Одометрия /odom]┘         │                        │
+                           │   reward = f(goal,     │ action
+                           │   collision, progress) │ (v, ω)
+                           ▼                        ▼
+                    [TensorBoard]            [/cmd_vel] ──► Gazebo
+```
+
+###  Три терминала (запуск)
+
+| # | Роль               | Команда                      |
+|---|--------------------|------------------------------|
+| 1 | Симуляция          | `bash scripts/run_sim.sh`    |
+| 2 | Мосты ROS ↔ Gazebo | `bash scripts/run_bridge.sh` |
+| 3 | Обучение PPO       | `bash scripts/run_train.sh`  |
