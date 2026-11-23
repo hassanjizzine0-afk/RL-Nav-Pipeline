@@ -86,3 +86,31 @@ RL-Nav-Pipeline/
 | 1 | Симуляция          | `bash scripts/run_sim.sh`    |
 | 2 | Мосты ROS ↔ Gazebo | `bash scripts/run_bridge.sh` |
 | 3 | Обучение PPO       | `bash scripts/run_train.sh`  |
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ Gazebo (gz-transport)                                       │
+│  URDF: visual, collision, <sensor>, <plugin>                │
+│  плагины публикуют: gz.msgs.LaserScan, gz.msgs.Odometry     │
+└──────────────────────────┬──────────────────────────────────┘
+                           │ gz-топики (сырые)
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│ ros_gz_bridge  (отдельный процесс, терминал 2)              │
+│  gz.msgs.LaserScan → sensor_msgs/LaserScan → /scan          │
+│  gz.msgs.Odometry  → nav_msgs/Odometry     → /odom          │
+│  /cmd_vel (Twist)  → gz.msgs.Twist         → Gazebo         │
+└──────────────────────────┬──────────────────────────────────┘
+                           │ ROS 2 топики /scan, /odom
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│ RosBridge  (Python-нода внутри train_ppo.py)                │
+│  подписка /scan, /odom → latest_scan, latest_pose           │
+│  паблишер /cmd_vel ← publish_cmd_vel(v, ω)                  │
+└──────────────────────────┬──────────────────────────────────┘
+                           │ numpy-массивы
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│ NavBotEnv (Gymnasium) → PPO                                 │
+└─────────────────────────────────────────────────────────────┘
+```
