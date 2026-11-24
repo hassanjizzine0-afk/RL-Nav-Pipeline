@@ -111,6 +111,81 @@ RL-Nav-Pipeline/
                            │ numpy-массивы
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
-│ NavBotEnv (Gymnasium) → PPO                                 │
-└─────────────────────────────────────────────────────────────┘
+│ NavBotEnv (Gymnasium)                                       │
+│  _get_observation():                                        │
+│    scan(360) + pose(x,y,yaw,dist) → obs (364,)              │
+│                                                             │
+│  step(action):                                              │
+│    1. bridge.publish_cmd_vel(v, ω)  ──┐                     │
+│    2. obs = _get_observation()        │                     │
+│    3. reward, terminated = compute_reward(...)              │
+│    4. return obs, reward, term, trunc, info                 │
+└──────────────────────────┬──────────────────────────────────┘
+                           │ (obs, reward, terminated, truncated)
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│ PPO (Stable-Baselines3, MlpPolicy)                          │
+│  вход: 364 числа → скрытые слои → выход: 2 числа (v, ω)     │
+│                                                             │
+│  цикл обучения:                                             │
+│    action = model.predict(obs)                              │
+│    obs, r, term, trunc, _ = env.step(action)                │
+│    сохранить (obs, action, r) в rollout buffer              │
+│    каждые n_steps → обновить веса PPO                       │
+└──────────────────────────┬──────────────────────────────────┘
+                           │ action (v, ω)
+                           └──────────────► обратно в NavBotEnv.step()
+                                            → publish_cmd_vel
+                                            → /cmd_vel
+                                            → ros_gz_bridge
+                                            → Gazebo
+
+
+
+
+```
+
+
+###  Три терминала (запуск)
+
+| # | Роль               | Команда                      |
+|---|--------------------|------------------------------|
+| 1 | Симуляция          | `bash scripts/run_sim.sh`    |
+| 2 | Мосты ROS ↔ Gazebo | `bash scripts/run_bridge.sh` |
+| 3 | Обучение PPO       | `bash scripts/run_train.sh`  |
+
+
+
+
+**Терминал 1 — Симуляция:**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ros2_ws/install/setup.bash
+ros2 launch navbot_x_bringup spawn_navbot.launch.py
+```
+
+**Терминал 2 — Мосты:**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ros2_ws/install/setup.bash
+ros2 launch navbot_x_bringup bridge.launch.py
+```
+
+**Терминал 3 — Обучение:**
+```bash
+source /opt/ros/jazzy/setup.bash
+source ros2_ws/install/setup.bash
+source venv/bin/activate
+python3 -m rl.train.train_ppo
+```
+
+## Структура
+```
+ros2_ws/   # Gazebo, URDF, миры
+rl/        # env, train, utils, configs
+models/    # веса .zip
+logs/      # TensorBoard
+venv/      # Python-окружение
+```
+
 ```
