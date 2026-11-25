@@ -188,4 +188,58 @@ logs/      # TensorBoard
 venv/      # Python-окружение
 ```
 
+
+
+
+
+# 🚀 Запуск RL-Nav-Pipeline: Симуляция и SLAM
+
+Краткая шпаргалка по запуску симуляции Gazebo, мостов ROS 2 и построения карты через `slam_toolbox`.
+
+---
+
+## 🖥️ Терминал 1: Симуляция (Gazebo)
+Запускает виртуальный мир и спавнит робота.
+```bash
+source /opt/ros/jazzy/setup.bash
+source ~/RL-Nav-Pipeline/ros2_ws/install/setup.bash
+ros2 launch navbot_x_bringup spawn_navbot.launch.py
+```
+
+
+
+## 🗺️ Терминал 2: SLAM
+Запускает узел `slam_toolbox`. 
+*(Терминал зависнет — это нормально, не закрывай его).*
+```bash
+source /opt/ros/jazzy/setup.bash
+ros2 run slam_toolbox async_slam_toolbox_node --ros-args -p use_sim_time:=true -p base_frame:=base_link
+```
+
+## 🚀 Терминал 3: Активация и Управление
+"Будит" SLAM и запускает управление роботом с клавиатуры.
+```bash
+source /opt/ros/jazzy/setup.bash
+ros2 lifecycle set /slam_toolbox configure
+sleep 2
+ros2 lifecycle set /slam_toolbox activate
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+*(После появления `Transitioning successful` нажимай `i` для движения вперед, `j`/`l` для поворотов).*
+
+## 📺 Терминал 4: Визуализация (RViz)
+```bash
+source /opt/ros/jazzy/setup.bash
+rviz2
+```
+**Настройка RViz:**
+1. В **Global Options** измени **Fixed Frame** на `map`.
+2. Нажми **Add** → **Map** (топик `/map`).
+3. Нажми **Add** → **LaserScan** (топик `/scan`).
+
+## 💾 Сохранение карты (опционально)
+После объезда территории сохрани карту:
+```bash
+ros2 run nav2_map_server map_saver_cli -f ~/my_map
+```
 ```
